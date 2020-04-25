@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+<form action="/introduccion_web/guardado.html" method="GET">
+    <div>
+    <label for="email">Email</label><br>
+        <input type="email" name="email" id="email">
+        <span class="input-group-addon">-</span>
+    <label for="password">Password</label><br>
+    <input type="password" name="password" id="password">
+    </div>
+
+    <br>
+    <div class="input-group">
+        <label for="remitosucursal">Sucursal</label><br>
+        <input name="remitosucursal" id="remitosucursal" type="text" required class="form-control" placeholder="Sucursal">
+        <span class="input-group-addon">-</span>
+        <label for="remitonumrto">Numero</label><br>
+        <input name="remitonumero" id="remitonumero" type="text" required class="form-control" placeholder="Numero">
+      </div>
+    <label for="direccion">Direccion</label><br>
+    <input type="text" name="direccion" id="direccion"><br>
+    <label for="direccion2">Direccion 2</label><br>
+    <input type="text"  name="direccion2" id="direccion2">
+    <br>
+    <label for="estado">Estado</label><br>
+    <input type="text" name="estado" id="estado">
+    <br>
+    <label for="ciudad">Ciudad</label><br>
+    <select name="ciudad" id="ciudad">
+        <option value="jalisco">Jalisco</option>
+        <option value="guanajuato">Guanajuato</option>
+    </select>
+
+</form>
+
+</body>
+</html>
