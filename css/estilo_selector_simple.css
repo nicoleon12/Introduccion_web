@@ -1,6 +1,5 @@
 p {
     text-align: center;
-    color: red;
 }
 
 #id-p {
@@ -8,7 +7,24 @@ p {
     color: blue;
 }
 
-.class-p {
+.right-green {
     text-align: right;
     color: green;
+}
+
+p.red {
+    text-align: center;
+    color: red;
+}
+
+.brown {
+    color: brown;
+}
+
+.large {
+    font-size: 25px;
+}
+
+h1, h2, p {
+    font-family: forte;
 }
